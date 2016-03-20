@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{99ef46f2-bf97-4d0c-8011-2fef19f0f9aa}" Title="Clicker Counter" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Denis Glad" Description="" Publisher="Denis Glad" BitsPerPixel="32">
+    <IconPath IsRelative="true" IsResource="false">app icon.png</IconPath>
+    <Capabilities>
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="Clicker_CounterToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">tile image.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>Clicker Counter</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
